@@ -1,0 +1,76 @@
+#game {
+	width: 1500px;
+	top: 0px;
+	left: 0px;
+	border: 15px groove #00274c;
+	position: fixed;
+}
+#gameBoard {
+	height: 627px;
+	width: inherit;
+	border: 4px groove #00274c;
+	background-color: #ffcb05;
+}
+#gameInfo {
+	height: 800px;
+	width: 200px;
+	background-color: #ffcb05;
+	border: 4px groove #00274c;
+	border-top: none;
+	text-align: center;
+	font-family: "Papyrus";
+	font-size: 24px;
+	font-weight: bold;
+	position: fixed;
+	top: 0px;
+	left: 1150px;
+}
+
+
+.bodyPart {
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background-color: red;
+	color: red;
+	font-size: 10px;
+	text-align: center;
+}
+.initialBodyPart {
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	background-color: #00274c;
+	color: red;
+	font-size: 10px;
+	text-align: center;
+}
+
+.food {
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	background-color: green;
+}
+
+.startMessage {
+	font-family: "verdana";
+	opacity: 20;
+	font-weight: bold;
+	border: 2px;
+	text-align: center;
+	position: fixed;
+	left: 400px;
+	padding-top: 10px;
+}
+.speedForm {
+	opacity: 20;
+	position: fixed;
+	top: 150px;
+	left: 465px;
+	z-index: 1;
+	font-weight: bold;
+	display: none;
+	color: black;
+
+}
