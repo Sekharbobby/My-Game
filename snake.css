@@ -25,8 +25,6 @@
 	top: 0px;
 	left: 1150px;
 }
-
-
 .bodyPart {
 	height: 35px;
 	width: 35px;
@@ -45,14 +43,12 @@
 	font-size: 10px;
 	text-align: center;
 }
-
 .food {
 	height: 35px;
 	width: 35px;
 	position: absolute;
 	background-color: green;
 }
-
 .startMessage {
 	font-family: "verdana";
 	opacity: 20;
@@ -72,5 +68,4 @@
 	font-weight: bold;
 	display: none;
 	color: black;
-
 }
